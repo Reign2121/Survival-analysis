@@ -1,5 +1,5 @@
 # -R-survival-analysis
 
-kaplan-maier
+kaplan-meier
 
 cox hazard ratio
