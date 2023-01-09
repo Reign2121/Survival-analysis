@@ -7,7 +7,7 @@ library(survival)
 library(survminer)
 
 #set wd(path)
-setwd("/Users/reign/Downloads") 
+setwd("/Users/reign/Downloads") #set yours!
 
 #read data
 surv = read.csv("survivalDataExercise (1).csv")
