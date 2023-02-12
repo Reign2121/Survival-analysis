@@ -30,7 +30,8 @@ ___cox hazard ratio___
 __________
 분석결과
 
-Kaplan-Meier 
+___kaplan-meier___
+
 
 이 분석은 가상의 데이터를 바탕으로 어떠한 서비스 이용고객의 생존(이탈)분석을 연습하는 것을 목적으로 한다.
 
@@ -42,7 +43,9 @@ Kaplan-Meier
 
 - 쿠폰 이용 고객(voucher1)의 생존율이 더 빠르게 감소한다. = 쿠폰을 이용한 고객이 해당 서비스를 더 빠르게 이탈하는 경향이 있다.
 
-Cox ph model
+
+
+__Cox ph model__
 
 ![image](https://user-images.githubusercontent.com/121419113/218312254-083bb856-a31a-4d97-af7b-aca40828ff71.png)
 
@@ -55,13 +58,15 @@ Hazard Ratio
 
 환불 여부에 대한 위험비 (환불o / 환불x) = 1.74
 
+
+
 #비례위험가정 확인
 
 cox.zph(cx.model) #시간과 잔차 간의 독립성 검정
 
 ![image](https://user-images.githubusercontent.com/121419113/218312317-769351df-a12a-443a-935a-878c84907054.png)
 
-gender 변수, p-value가 0.05보다 작기 때문에 독립성을 가정하는 귀무가설을 기각한다. 즉, 독립적이지 못하고 영향을 받고 있다.
+gender 변수, p-value가 0.05보다 작기 때문에 독립성을 가정하는 귀무가설을 기각한다. 즉, 시간에 따라 독립적이지 못하고 영향을 받고 있다.
 
 gender 변수는 그 위험비가 시간에 따라 일정하다는 가정을 충족한다고 볼 수 없다.
 
