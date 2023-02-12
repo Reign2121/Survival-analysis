@@ -45,12 +45,13 @@ ___kaplan-meier___
 
 
 
-__Cox ph model__
+___Cox ph model___
 
 ![image](https://user-images.githubusercontent.com/121419113/218312254-083bb856-a31a-4d97-af7b-aca40828ff71.png)
 
 
-Hazard Ratio
+
+___Hazard Ratio___
 
 여성에 대한 남성의 위험비 (남성/여성) = 0.55
 
@@ -73,7 +74,9 @@ gender 변수는 그 위험비가 시간에 따라 일정하다는 가정을 충
 ![image](https://user-images.githubusercontent.com/121419113/218312455-bb44a93f-2b68-4039-8ddc-ec7a9faa169c.png)
 __________
 
+
 시사점
+
 남자들은 로얄티가 적다는 것을 의미한다고 볼 수 있음
 ->남자들의 로얄티를 이끌어내는 지속적인 이벤트 
 (도장쿠폰, 포인트 지급 등)
