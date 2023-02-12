@@ -10,7 +10,7 @@ library(survminer)
 setwd("/Users/reign/Downloads") #set yours!
 
 #read data
-surv = read.csv("survivalDataExercise (1).csv")
+surv = read.csv("survivalDataExercise.csv")
 
 #setting data for event which means churning
 surv %>%
